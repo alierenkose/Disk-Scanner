@@ -1,3 +1,5 @@
+###@alierenkose
+
 import ctypes
 
 question = input("Disk Name: (C / D / E): ")
@@ -26,3 +28,6 @@ else:
     print(f"Empty Space: {free_size:.2f} GB")
     print(f"Full Area: {used_size:.2f} GB")
     print(f"Solidity Ratio: {usage_percent:.2f}%")
+    
+    
+###@alierenkose
