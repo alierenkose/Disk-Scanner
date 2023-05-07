@@ -2,7 +2,7 @@
 
 import ctypes
 
-question = input("Disk Name: (C / D / E): ")
+question = input("Disk Name: (C / D / E etc.): ")
 
 def get_free_space_gb(folder):
 
