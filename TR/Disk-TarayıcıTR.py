@@ -26,10 +26,12 @@ if used_size == 0:
     print("Disk Bulunamadı!")
 else:
     usage_percent = used_size / total_size * 100
+    print("--------------------------------------------------")
     print(f"Disk Boyutu: {total_size:.2f} GB")
     print(f"Boş Alan: {free_size:.2f} GB")
     print(f"Dolu Alan: {used_size:.2f} GB")
     print(f"Doluluk Oranı: %{usage_percent:.2f}")
+    print("--------------------------------------------------")
     
     
-    @alierenkose
+###@alierenkose
